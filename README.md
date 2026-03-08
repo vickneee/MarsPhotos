@@ -10,10 +10,20 @@ handle the deserialization of the returned JSON to Kotlin data objects, and [Coi
 
 ## Mars Photos
 
-### Starter Page
+### Start
 
 <p align="center">
 <img src="./res/Screenshot_20260308_025736.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260308_032358.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
+</p>
+
+### Exceptions and Errors
+
+<p align="center">
+<img src="./res/Screenshot_20260308_033708.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260308_035511.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
+</p>
+
+<p align="center">
+<img src="./res/Screenshot_20260308_035741.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260308_035749.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
 </p>
 
 
