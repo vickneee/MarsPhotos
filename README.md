@@ -8,6 +8,15 @@ as a REST web service.
 This app demonstrated the use of [Retrofit](https://square.github.io/retrofit/) to make REST requests to the web service, [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) to
 handle the deserialization of the returned JSON to Kotlin data objects, and [Coil](https://coil-kt.github.io/coil/) to load images by URL.
 
+## Mars Photos
+
+### Starter Page
+
+<p align="center">
+<img src="./res/Screenshot_20260308_025736.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
+</p>
+
+
 Pre-requisites
 --------------
 

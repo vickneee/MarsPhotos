@@ -33,7 +33,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             MarsPhotosTheme {
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier
+                        .fillMaxSize()
                 ) {
                     MarsPhotosApp()
                 }

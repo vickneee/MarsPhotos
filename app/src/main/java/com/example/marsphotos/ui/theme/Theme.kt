@@ -67,7 +67,7 @@ fun MarsPhotosTheme(
             window.statusBarColor = colorScheme.primary.toArgb()
             WindowCompat
                 .getInsetsController(window, view)
-                .isAppearanceLightStatusBars = darkTheme
+                .isAppearanceLightStatusBars = !darkTheme
         }
     }
     MaterialTheme(
