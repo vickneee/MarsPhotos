@@ -26,7 +26,6 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.marsphotos.MarsPhotosApplication
 import com.example.marsphotos.data.MarsPhotosRepository
-import com.example.marsphotos.data.NetworkMarsPhotosRepository
 import com.example.marsphotos.model.MarsPhoto
 import kotlinx.coroutines.launch
 import java.io.IOException
@@ -53,8 +52,9 @@ class MarsViewModel(private val marsPhotosRepository: MarsPhotosRepository) : Vi
      * Gets Mars photos information from the Mars API Retrofit service and updates the
      * [MarsPhoto] [List] [MutableList].
      */
-    private fun getMarsPhotos() {
+    fun getMarsPhotos() {
         viewModelScope.launch {
+            marsUiState = MarsUiState.Loading
             marsUiState = try {
                 MarsUiState.Success(marsPhotosRepository.getMarsPhotos())
             } catch (e: IOException) {
@@ -66,12 +66,10 @@ class MarsViewModel(private val marsPhotosRepository: MarsPhotosRepository) : Vi
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-
                 val application = (this[APPLICATION_KEY] as MarsPhotosApplication)
                 val marsPhotosRepository = application.container.marsPhotosRepository
-                MarsViewModel(marsPhotosRepository = marsPhotosRepository as NetworkMarsPhotosRepository)
-                }
-
+                MarsViewModel(marsPhotosRepository = marsPhotosRepository)
+            }
         }
     }
 }
