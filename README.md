@@ -23,7 +23,7 @@ handle the deserialization of the returned JSON to Kotlin data objects, and [Coi
 </p>
 
 <p align="center">
-<img src="./res/Screenshot_20260308_035741.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260308_032358.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
+<img src="./res/Screenshot_20260308_035741.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
 </p>
 
 ### Success
