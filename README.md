@@ -13,7 +13,7 @@ handle the deserialization of the returned JSON to Kotlin data objects, and [Coi
 ### Fetching data from the internet
 
 <p align="center">
-<img src="./res/Screenshot_20260308_025736.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260308_032358.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
+<img src="./res/Screenshot_20260308_025736.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
 </p>
 
 ### Errors and Exceptions
@@ -23,12 +23,16 @@ handle the deserialization of the returned JSON to Kotlin data objects, and [Coi
 </p>
 
 <p align="center">
-<img src="./res/Screenshot_20260308_035741.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
+<img src="./res/Screenshot_20260308_035741.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260308_032358.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
 </p>
+
+### Success
 
 <p align="center">
 <img src="./res/Screenshot_20260308_042611.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260312_201531.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
 </p>
+
+### Loading data
 
 <p align="center">
 <img src="./res/Screenshot_20260312_204413.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/><img src="./res/Screenshot_20260312_204715.png" width="35%" alt="Android Mobile App Screen - Mars Photos screen"/>
